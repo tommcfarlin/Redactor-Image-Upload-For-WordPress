@@ -106,10 +106,6 @@ wp_enqueue_script( 'theme-js' );
 
 ## Changelog
 
-### 0.2 (October 8th, 2012)
-
-* Adding *Known Issues* to the README
-
 ### 0.1 (October 6th, 2012)
 
 * Initial Release
