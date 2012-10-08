@@ -91,6 +91,12 @@ wp_register_script( 'theme-js', get_template_directory_uri() . '/js/theme.js' );
 wp_enqueue_script( 'theme-js' );
 ```
 
+## Known Issues
+
+1. This script only works if the WordPress installation is located in the root (read: `/public_html/`) directory of a web server.
+2. This script expects that the user's default uploads directory is in `wp-content/uploads` rather than reading the value from the API.
+
+
 ## Contact
 
 * Twitter: [@tommcfarlin](http://twitter.com/tommcfarlin)
@@ -99,6 +105,10 @@ wp_enqueue_script( 'theme-js' );
 * Email:   [tom@tommcfarlin.com](mailto:tom@tommcfarlin.com)
 
 ## Changelog
+
+### 0.2 (October 8th, 2012)
+
+* Adding *Known Issues* to the README
 
 ### 0.1 (October 6th, 2012)
 
